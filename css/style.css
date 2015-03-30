@@ -1,0 +1,92 @@
+
+*{
+	font-family: Microsoft YaHei;
+	margin: 0;
+	padding: 0;	
+	/*width: 100%;*/
+}
+
+.header{
+	height: 40px;
+	margin: 0 0 30px 0;
+	padding: 0;
+	background-color: #428bca;
+	box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.login{
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px 
+}
+.login h2{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	background-color: #829aa8;
+	border: 1px solid #768995;
+	border-radius: 3px 3px 0 0;
+}
+.login form{
+	padding: 0 30px 20px 30px;
+	border: 1px solid #d8dee2;
+}
+.input{
+	position: relative;
+}
+.input input{
+	position: relative;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	height: 35px;
+	margin: 30px 0;
+	padding: 7px 8px;
+	font-size: 17px;
+	background-color: transparent;
+	color: #333;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+	z-index: 1;
+}
+.input label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 7px 8px;
+	color: #ccc;
+	font-size: 15px;
+}
+.input span{
+	display: block;
+	background-color: #fff;
+	position: relative;
+	float: left;
+}
+.input input:focus{
+    border-color: rgba(82,168,236,.8);
+    box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+button{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	padding: 5px 2px;
+	margin: 20px 0 10px 0;
+	text-align: center;
+	background-color: #428bca;
+	color: #fff;
+	border-radius: 3px;
+}
