@@ -82,11 +82,17 @@
 button{
 	display: block;
 	width: 100%;
-	font-size: 20px;
+	cursor: pointer;
+	font-size: 18px;
 	padding: 5px 2px;
 	margin: 20px 0 10px 0;
 	text-align: center;
-	background-color: #428bca;
-	color: #fff;
+	background-color: #e6e6e6;
+	color: #6C6464;
+	border: 1px solid #ccc;
 	border-radius: 3px;
+}
+button:hover{
+	border-color: rgba(82,168,236,.8);
+    box-shadow: 0 0 8px rgba(82,168,236,.6);
 }
